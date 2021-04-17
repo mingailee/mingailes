@@ -18,6 +18,6 @@ public class MainActivity extends AppCompatActivity {
         this.tvMain=findViewById(R.id.tvMain);
     }
     public void OnBtnclick(View view){
-        this.tvMain.setText("Keičiam teksta");
+        this.tvMain.setText(R.string.changed_label_captions);
     }
 }
